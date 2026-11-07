@@ -1,0 +1,3 @@
+* text=auto eol=lf
+*.html linguist-generated=true
+demo/* linguist-generated=true

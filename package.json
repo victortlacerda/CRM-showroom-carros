@@ -1,0 +1,33 @@
+{
+  "name": "crm-showroom-carros",
+  "version": "0.1.0",
+  "description": "CRM e controle de estoque de uma loja de carros em 3D (Three.js)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test tests/*.test.js",
+    "dados": "node scripts/gerar-dados.mjs",
+    "demo": "vite build && node scripts/publicar-demo.mjs"
+  },
+  "dependencies": {
+    "three": "^0.186.1",
+    "vite": "^8.3.5"
+  },
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "vite-plugin-singlefile": "^2.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victortlacerda/CRM-showroom-carros.git"
+  },
+  "homepage": "https://github.com/victortlacerda/CRM-showroom-carros#readme",
+  "bugs": {
+    "url": "https://github.com/victortlacerda/CRM-showroom-carros/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

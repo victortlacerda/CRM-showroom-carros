@@ -1,0 +1,18 @@
+# dependências e build
+node_modules/
+dist/
+
+# credenciais e dados reais (nunca subir!) — Fase 3 usará Google Sheets
+.env
+.env.*
+credenciais*.json
+service-account*.json
+*.pem
+dados-reais/
+
+# sistema e editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
